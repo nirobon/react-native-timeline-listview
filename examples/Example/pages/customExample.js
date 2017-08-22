@@ -36,7 +36,7 @@ export default class Example extends Component {
           lineColor='rgb(45,156,219)'
           timeContainerStyle={{minWidth:52, marginTop: -5}}
           timeStyle={{textAlign: 'center', backgroundColor:'#ff9797', color:'white', padding:5, borderRadius:13}}
-          descriptionStyle={{color:'gray'}}
+          descriptionStyle={{color:'#4ca559'}}
           options={{
             style:{paddingTop:5}
           }}
