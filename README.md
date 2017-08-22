@@ -59,10 +59,10 @@ render(){
         <Timeline 
           //..other props
           circleSize={20}
-          circleColor='rgb(45,156,219)'
-          lineColor='rgb(45,156,219)'
+          circleColor='#4ca559'
+          lineColor='#4ca559'
           timeContainerStyle={{minWidth:52, marginTop: -5}}
-          timeStyle={{textAlign: 'center', backgroundColor:'#4ca559', color:'white', padding:5, borderRadius:13}}
+          timeStyle={{textAlign: 'center', backgroundColor:'#4ca559', color:'#4ca559', padding:5, borderRadius:13}}
           descriptionStyle={{color:'#4ca559'}}
           options={{
             style:{paddingTop:5}
