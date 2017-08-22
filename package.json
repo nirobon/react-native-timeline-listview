@@ -1,15 +1,41 @@
 {
-  "name": "react-native-timeline-listview",
-  "version": "0.2.2",
+  "_args": [
+    [
+      "react-native-timeline-listview@0.2.2",
+      "/Users/nirobonsaeku/project/NRRU-Farm/NRRUFARM"
+    ]
+  ],
+  "_from": "react-native-timeline-listview@0.2.2",
+  "_id": "react-native-timeline-listview@0.2.2",
+  "_inBundle": false,
+  "_integrity": "sha512-gzpBitOD6CqNfJT0HdppHxLtwV1z9QTTa+zUoaE5h9gX+eUZnYxQQwxV8B5apcibrpqusH5TcpLJMZ1ZJ3XkBQ==",
+  "_location": "/react-native-timeline-listview",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-native-timeline-listview@0.2.2",
+    "name": "react-native-timeline-listview",
+    "escapedName": "react-native-timeline-listview",
+    "rawSpec": "0.2.2",
+    "saveSpec": null,
+    "fetchSpec": "0.2.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-timeline-listview/-/react-native-timeline-listview-0.2.2.tgz",
+  "_spec": "0.2.2",
+  "_where": "/Users/nirobonsaeku/project/NRRU-Farm/NRRUFARM",
+  "author": {
+    "name": "Watcharachai Kanjaikaew",
+    "url": "https://github.com/thegamenicorus"
+  },
+  "bugs": {
+    "url": "https://github.com/thegamenicorus/react-native-timeline-listview/issues"
+  },
   "description": "Timeline component for React Native",
-  "main": "lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:thegamenicorus/react-native-timeline-listview.git"
-  },
+  "homepage": "https://github.com/thegamenicorus/react-native-timeline-listview",
   "keywords": [
     "react-native",
     "timeline",
@@ -20,13 +46,18 @@
     "android",
     "component"
   ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "react-native-timeline-listview",
   "peerDependencies": {
     "react-native": ">= 0.4"
   },
-  "author": "Watcharachai Kanjaikaew (https://github.com/thegamenicorus)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/thegamenicorus/react-native-timeline-listview/issues"
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/thegamenicorus/react-native-timeline-listview.git"
   },
-  "homepage": "https://github.com/thegamenicorus/react-native-timeline-listview"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.2.2"
 }
