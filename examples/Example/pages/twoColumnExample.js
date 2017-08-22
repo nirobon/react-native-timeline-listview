@@ -121,6 +121,6 @@ const styles = StyleSheet.create({
   },
   textDescription: {
     marginLeft: 10,
-    color: 'gray'
+    color: '#4ca559'
   }
 });
