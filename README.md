@@ -59,11 +59,11 @@ render(){
         <Timeline 
           //..other props
           circleSize={20}
-          circleColor='#4ca559'
-          lineColor='#4ca559'
+          circleColor='rgb(45,156,219)'
+          lineColor='rgb(45,156,219)'
           timeContainerStyle={{minWidth:52, marginTop: -5}}
-          timeStyle={{textAlign: 'center', backgroundColor:'#4ca559', color:'#4ca559', padding:5, borderRadius:13}}
-          descriptionStyle={{color:'#4ca559'}}
+          timeStyle={{textAlign: 'center', backgroundColor:'#ff9797', color:'white', padding:5, borderRadius:13}}
+          descriptionStyle={{color:'gray'}}
           options={{
             style:{paddingTop:5}
           }}
@@ -93,10 +93,10 @@ render(){
 constructor(){
     super()
     this.data = [
-      {time: '09:00', title: 'Archery Training', description: 'The Beginner Archery and Beginner Crossbow course does not require you to bring any equipment, since everything you need will be provided for the course. ',lineColor:'#4ca559', icon: require('../img/archery.png')},
+      {time: '09:00', title: 'Archery Training', description: 'The Beginner Archery and Beginner Crossbow course does not require you to bring any equipment, since everything you need will be provided for the course. ',lineColor:'#009688', icon: require('../img/archery.png')},
       {time: '10:45', title: 'Play Badminton', description: 'Badminton is a racquet sport played using racquets to hit a shuttlecock across a net.', icon: require('../img/badminton.png')},
       {time: '12:00', title: 'Lunch', icon: require('../img/lunch.png')},
-      {time: '14:00', title: 'Watch Soccer', description: 'Team sport played between two teams of eleven players with a spherical ball. ',lineColor:'#4ca559', icon: require('../img/soccer.png')},
+      {time: '14:00', title: 'Watch Soccer', description: 'Team sport played between two teams of eleven players with a spherical ball. ',lineColor:'#009688', icon: require('../img/soccer.png')},
       {time: '16:30', title: 'Go to Fitness center', description: 'Look out for the Best Gym & Fitness Centers around me :)', icon: require('../img/dumbbell.png')}
     ]
   } 
@@ -123,7 +123,7 @@ constructor(){
         time: '09:00', 
         title: 'Archery Training', 
         description: 'The Beginner Archery and Beginner Crossbow course does not require you to bring any equipment, since everything you need will be provided for the course. ',
-        lineColor:'#4ca559', 
+        lineColor:'#009688', 
         icon: require('../img/archery.png'),
         imageUrl: 'https://cloud.githubusercontent.com/assets/21040043/24240340/c0f96b3a-0fe3-11e7-8964-fe66e4d9be7a.jpg'
       },
@@ -143,7 +143,7 @@ constructor(){
         time: '14:00', 
         title: 'Watch Soccer', 
         description: 'Team sport played between two teams of eleven players with a spherical ball. ',
-        lineColor:'#4ca559', 
+        lineColor:'#009688', 
         icon: require('../img/soccer.png'),
         imageUrl: 'https://cloud.githubusercontent.com/assets/21040043/24240419/1f553dee-0fe4-11e7-8638-6025682232b1.jpg'
       },
@@ -279,9 +279,9 @@ render(){
 | separator | bool | true | render separator line of events |
 | columnFormat | string | 'single-left' | can be 'single-column-left', 'single-column-right', 'two-column' |
 | lineWidth | int | 2 | timeline line width  |
-| lineColor | string | '#4ca559' | timeline line color |
+| lineColor | string | '#007AFF' | timeline line color |
 | circleSize | int | 16 | timeline circle size |
-| circleColor | string | '#4ca559' | timeline circle color |
+| circleColor | string | '#007AFF' | timeline circle color |
 | dotColor | string | 'white' | timeline dot color (innerCircle = 'dot') |
 | icon | obj(image source) | null | timeline icon (innerCircle = 'color') |
 | style | object | null | custom styles of Timeline |
